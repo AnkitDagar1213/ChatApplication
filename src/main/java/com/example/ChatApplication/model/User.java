@@ -29,7 +29,7 @@ public class User {
     @Column
     private String phonenumber;
     @Column
-    private String dfg;
+    private String gender;
     @Column(name="")
     private Integer age;
     private Timestamp Created_date;

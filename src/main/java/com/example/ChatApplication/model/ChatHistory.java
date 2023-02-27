@@ -32,4 +32,7 @@ public class ChatHistory {
     @UpdateTimestamp
     @Column(name="")
     private Timestamp Update_date;
+    @ManyToOne
+    @JoinColumn
+    private Status statusid;
 }
